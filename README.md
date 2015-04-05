@@ -45,7 +45,7 @@ module.exports = {
             {
                 test: /^.*$/,
                 loader: "annotation",
-                rules: [
+                annotations: [
                     {
                         'for': 'bar',
                         'do': ''
